@@ -56,7 +56,7 @@ const HEXandRGB = value => {
 		return rgb;
 
 	} 
-	// if is rgb / TO HEX
+	// if is RGB then change it  to HEX
 	else if (value.length === 3) {
 		
 		let hex = "";
