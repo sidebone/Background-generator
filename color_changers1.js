@@ -8,7 +8,7 @@
 let hex = "F2AB7D"; // Equivalent to rgb(242,171,125)
 let rgb = [242, 171, 125]; // Equivalente to the upper hex value
 
-
+// hex table
 const hexTable = number => {
 
 	if (parseInt(number) < 10) return parseInt(number);
@@ -44,6 +44,7 @@ const hexTable = number => {
 	}
 }
 
+// convert to hex and rgb color format
 const HEXandRGB = value => {
 	//if is hex / TO RGB
 	if (value.length === 6) {
